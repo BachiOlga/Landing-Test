@@ -127,7 +127,7 @@ li {
 }
 
 .offer__gallery {
-    background: url('../img/2.jpg') no-repeat center center;
+    background: url('../img/2.jpg');
     width: 618px;
     height: 349px;
     margin-left: auto;
