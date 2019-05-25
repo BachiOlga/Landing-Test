@@ -15,6 +15,17 @@ button {
     box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -37,6 +48,7 @@ li {
 .nav {
     display: flex;
     align-items: center;
+    /* margin-top: 15px; */
 }
 
 .menu {
@@ -73,4 +85,50 @@ li {
 
 .phone:hover {
     font-size: 20px;
+}
+
+/* offer */
+.offer {
+    display: flex;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.offer__content h1 {
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.offer__content p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 19px;
+}
+
+.offer__content a {
+
+    color: #313131;
+    font-weight: 300;
+    font-size: 25px;
+    width: 290px;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid #313131;
+    transition: all 0.5s ease;
+    margin-top: 35px;
+}
+
+.offer__content a:hover {
+
+    background: #313131;
+    color: #f4f2f2;
+}
+
+.offer__gallery {
+    background: url('../img/2.jpg') no-repeat center center;
+    width: 618px;
+    height: 349px;
+    margin-left: auto;
 }
